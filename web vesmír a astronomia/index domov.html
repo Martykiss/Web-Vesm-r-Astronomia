@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vesmír a astronomia</title>
+  <link rel="stylesheet" href="flex vesmír.css">
+</head>
+
+<body>
+
+  <section class="showcase">
+    
+    <header>
+      <h2 class="logo"></h2>
+      <div class="toggle "></div>
+    </header>
+   
+    <video src="space.mp4" muted loop autoplay></video>
+    
+    <div class="overlay"></div>
+    
+    <div class="text">
+      
+      <h2>Vesmír a Astronomia  </h2> 
+      
+      <h3>Vitajte na našej stránke kde sa dozviete všetko o Vesmíre a Astronomií.</h3>
+      
+      
+    
+    </div>
+    
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  
+  
+  <div class="menu">
+    <ul>
+      <li><a href="#">Novinky</a></li> <br>
+      <li><a href="li class="current><a href="index zaujimavost.html">Zaujimavosti</a></li> <br>
+      <li><a href="#">Eshop</a></li> <br>
+      <li><a href="#">Blog</a></li> <br> 
+      <li><a href="li class="current><a href="index projekty.html">Projekty</a></li> <br>
+      <li><a href="#">Hvezdárne a Planetária na Slovensku</a></li> <br>
+      <li><a href="#">Aktuálne počasie</a></li> <br>
+      <li><a href="#">Najlepšie miesta na pozorovanie </a></li> <br>
+      <li><a href="#">Fotogaleria</a></li> <br>
+       
+    </ul>
+  </div>
+
+<script>
+ const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+
+</script>
+
+
+
+</body>
+</html>

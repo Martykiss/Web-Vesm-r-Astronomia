@@ -1,0 +1,11 @@
+fieldset{
+background-color:rgb(102,255,255);
+}
+
+input [type=text]{
+background-color:rgb (255,255,153);
+}
+
+select{
+background-color:rgb (255,51,102);
+}
